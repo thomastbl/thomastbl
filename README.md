@@ -2,7 +2,7 @@
 
 ###
 
-<p data-importer="text" align="center">🔭 I'm Thomas, 27, based in Marseille. I came to development from the<br>support side of IT and started coding seriously at the end of 2025. Ten<br>months in, most of what I know comes from The Odin Project and from<br>working my own projects.<br><br>🤝 Right now I'm building a browser-based multiplayer strategy game,<br>inspired by OpenFront.io. It's the project I learn on: authentification, database,<br>real-time sync, websockets, ... whatever I don't understand yet becomes the next thing<br>I read about. Vanilla JS on the front, Express.js and PostgreSQL behind it.<br><br>⚡ One rule I stick to is that I don't use AI to write my code. I use it to<br>understand concepts, then I write the thing myself. Slower, and it<br>sticks.</p>
+<p data-importer="text" align="center">🔭 I'm Thomas, 27, based in Marseille. I came to development from the<br>support side of IT and started coding seriously at the end of 2025. Ten<br>months in, most of what I know comes from The Odin Project and from<br>working on my own projects.<br><br>🤝 Right now I'm building a browser-based multiplayer strategy game,<br>inspired by OpenFront.io. It's the project I learn on: authentification, database,<br>real-time sync, websockets, ... whatever I don't understand yet becomes the next thing<br>I read about. Vanilla JS on the front, Express.js and PostgreSQL behind it.<br><br>⚡ One rule I stick to is that I don't use AI to write my code. I use it to<br>understand concepts, then I write the thing myself. Slower, and it<br>sticks.</p>
 
 ###
 
