@@ -33,21 +33,3 @@
 </div>
 
 ###
-
-<h2 data-importer="text" align="center">Get in touch with me</h2>
-
-###
-
-<div data-importer="socials" align="center">
-  <a href="https://www.linkedin.com/in/thomas-teboul-7809201b6/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-</div>
-
-###
-
-<div data-importer="profile-views" align="center">
-  <img data-importer="profile-views" src="https://visitor-badge.laobi.icu/badge?page_id=thomastbl.thomastbl&"  />
-</div>
-
-###
