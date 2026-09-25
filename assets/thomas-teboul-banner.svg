@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="t d">
 <title id="t">Thomas Teboul</title>
-<desc id="d">I build application systems where data meets AI. Application Engineering student at ESGI, École Supérieure de Génie Informatique.</desc>
+<desc id="d">Building toward systems where data meets AI. Software Engineering Bachelor at ESGI, École Supérieure de Génie Informatique.</desc>
 <style>
 .mono{font-family:'JetBrains Mono','Fira Code','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace}
 .sans{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
@@ -160,11 +160,11 @@
 <rect x="263" y="64" width="9" height="18" fill="#4FD1C5" class="blink"><animate attributeName="x" dur="1.7s" fill="freeze" calcMode="discrete" values="209;209;218;227;236;245;254;263" keyTimes="0;.35;.45;.55;.64;.73;.82;.91"/></rect>
 </g>
 <text x="70" y="146" class="sans rise" style="animation-delay:1.6s" font-size="60" font-weight="700" letter-spacing="-1.2" fill="#EAF2FF">Thomas Teboul</text>
-<text x="72" y="192" class="sans rise" style="animation-delay:1.9s" font-size="22" fill="#A9BCD6">I build application systems where <tspan fill="#4FD1C5" font-weight="600">data</tspan> meets <tspan fill="#8AB4FF" font-weight="600">AI</tspan>.</text>
+<text x="72" y="192" class="sans rise" style="animation-delay:1.9s" font-size="22" fill="#A9BCD6">Building toward systems where <tspan fill="#4FD1C5" font-weight="600">data</tspan> meets <tspan fill="#8AB4FF" font-weight="600">AI</tspan>.</text>
 <g class="rise" style="animation-delay:2.2s">
 <rect x="72" y="220" width="383" height="34" rx="8" fill="#0F2440" fill-opacity=".85" stroke="#23446C"/>
 <circle cx="90" cy="237" r="4" fill="#4FD1C5" class="dot"/>
-<text x="104" y="242" class="mono" font-size="15" fill="#D6E4F7" textLength="333" lengthAdjust="spacingAndGlyphs">Application Engineering student <tspan fill="#4FD1C5">@ESGI</tspan></text>
+<text x="104" y="242" class="mono" font-size="15" fill="#D6E4F7" textLength="333" lengthAdjust="spacingAndGlyphs">Software Engineering Bachelor at <tspan fill="#4FD1C5">@ESGI</tspan></text>
 </g>
 <text x="73" y="282" class="sans rise" style="animation-delay:2.45s" font-size="14" letter-spacing=".3" fill="#6A84A6">École Supérieure de Génie Informatique</text>
 <line x1="72" y1="319" x2="1208" y2="319" stroke="url(#edgeLine)" stroke-width="2"/>
