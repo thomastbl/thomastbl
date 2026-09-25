@@ -24,7 +24,7 @@
 
 **Daily use**
 
-<img src="https://skillicons.dev/icons?i=js,html,css,nodejs,express,postgres,git,github,linux&theme=dark" />
+<img src="https://skillicons.dev/icons?i=js,html,css,nodejs,express,postgres,git,docker,linux&theme=dark" />
 
 **Learning now**
 
