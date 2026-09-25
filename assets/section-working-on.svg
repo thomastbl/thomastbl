@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="72" viewBox="0 0 1280 72" role="img" aria-label="What I&#39;m working on">
+<title>What I&#39;m working on</title>
+<defs>
+<linearGradient id="lineL" x1="72" y1="0" x2="438" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4FD1C5" stop-opacity="0"/><stop offset="1" stop-color="#4FD1C5" stop-opacity=".8"/></linearGradient>
+<linearGradient id="lineR" x1="842" y1="0" x2="1208" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8AB4FF" stop-opacity=".8"/><stop offset="1" stop-color="#8AB4FF" stop-opacity="0"/></linearGradient>
+<linearGradient id="chipEdge" x1="452" y1="0" x2="828" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4FD1C5" stop-opacity=".9"/><stop offset=".5" stop-color="#23446C"/><stop offset="1" stop-color="#8AB4FF" stop-opacity=".9"/></linearGradient>
+</defs>
+<style>
+.node{animation:blink 3.2s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.45}}
+@media (prefers-reduced-motion:reduce){.node{animation:none}}
+</style>
+<line x1="72" y1="36" x2="432" y2="36" stroke="url(#lineL)" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="848" y1="36" x2="1208" y2="36" stroke="url(#lineR)" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="432" y="32" width="8" height="8" rx="2" fill="#4FD1C5" class="node"/>
+<circle cx="844" cy="36" r="4" fill="#8AB4FF" class="node" style="animation-delay:1.6s"/>
+<rect x="452" y="10" width="376" height="52" rx="12" fill="#0F2440" stroke="url(#chipEdge)" stroke-width="1.5"/>
+<text x="478" y="45" font-size="26" font-family="'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif">🚀</text>
+<text x="523" y="45" font-size="26" font-weight="700" letter-spacing="-.2" fill="#EAF2FF" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif">What I&#39;m working on</text>
+</svg>
