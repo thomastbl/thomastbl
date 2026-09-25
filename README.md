@@ -1,4 +1,6 @@
-<h1 data-importer="text" align="center">Hey there👋</h1>
+<p align="center">
+  <img src="./assets/thomas-teboul-banner.svg" width="100%" alt="" />
+</p>
 
 ###
 

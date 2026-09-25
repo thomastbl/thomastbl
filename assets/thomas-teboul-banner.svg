@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="t d">
+<title id="t">Thomas Teboul</title>
+<desc id="d">I build application systems where data meets AI. Application Engineering student at ESGI, École Supérieure de Génie Informatique.</desc>
+<style>
+.mono{font-family:'JetBrains Mono','Fira Code','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace}
+.sans{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
+.rise{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+.fade{animation:fade 1.2s ease-out both}
+.blink{animation:blink 1.05s steps(1) infinite}
+.drift{animation:drift 60s linear infinite}
+.node{animation:glow 3.2s ease-in-out infinite}
+.ring{animation:ring 2.8s ease-out infinite;transform-box:fill-box;transform-origin:center}
+.dot{animation:dot 2s ease-in-out infinite}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes blink{0%{opacity:1}50%{opacity:0}}
+@keyframes drift{from{transform:translateY(0)}to{transform:translateY(-264px)}}
+@keyframes glow{0%,100%{fill-opacity:.12}50%{fill-opacity:.85}}
+@keyframes ring{0%{opacity:.55;transform:scale(1)}100%{opacity:0;transform:scale(2.1)}}
+@keyframes dot{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes p0{0%{stroke-dashoffset:34}62%{stroke-dashoffset:-378.9}100%{stroke-dashoffset:-378.9}}.p0{stroke-dasharray:34 422.9;stroke-dashoffset:34;animation:p0 3.6s cubic-bezier(.45,.05,.55,.95) 1.2s infinite}@keyframes p1{0%{stroke-dashoffset:34}62%{stroke-dashoffset:-377.8}100%{stroke-dashoffset:-377.8}}.p1{stroke-dasharray:34 421.8;stroke-dashoffset:34;animation:p1 3.6s cubic-bezier(.45,.05,.55,.95) 1.8s infinite}@keyframes p2{0%{stroke-dashoffset:34}62%{stroke-dashoffset:-406.1}100%{stroke-dashoffset:-406.1}}.p2{stroke-dasharray:34 450.1;stroke-dashoffset:34;animation:p2 3.6s cubic-bezier(.45,.05,.55,.95) 2.4s infinite}@keyframes p3{0%{stroke-dashoffset:34}62%{stroke-dashoffset:-384.6}100%{stroke-dashoffset:-384.6}}.p3{stroke-dasharray:34 428.6;stroke-dashoffset:34;animation:p3 3.6s cubic-bezier(.45,.05,.55,.95) 3.0s infinite}@keyframes p4{0%{stroke-dashoffset:34}62%{stroke-dashoffset:-371.6}100%{stroke-dashoffset:-371.6}}.p4{stroke-dasharray:34 415.6;stroke-dashoffset:34;animation:p4 3.6s cubic-bezier(.45,.05,.55,.95) 3.6s infinite}@keyframes p5{0%{stroke-dashoffset:34}62%{stroke-dashoffset:-385.1}100%{stroke-dashoffset:-385.1}}.p5{stroke-dasharray:34 429.1;stroke-dashoffset:34;animation:p5 3.6s cubic-bezier(.45,.05,.55,.95) 4.2s infinite}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#08121F"/><stop offset=".55" stop-color="#0B1A2E"/><stop offset="1" stop-color="#0E2340"/>
+</linearGradient>
+<radialGradient id="glowR" cx="1000" cy="160" r="360" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#1D4B7E" stop-opacity=".45"/><stop offset="1" stop-color="#1D4B7E" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="glowL" cx="120" cy="60" r="420" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#123A5C" stop-opacity=".35"/><stop offset="1" stop-color="#123A5C" stop-opacity="0"/>
+</radialGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+<path d="M32 0H0V32" fill="none" stroke="#18314F" stroke-width="1" opacity=".55"/>
+</pattern>
+<linearGradient id="gridFade" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#fff" stop-opacity=".25"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="1"/>
+</linearGradient>
+<mask id="gridMask"><rect width="1280" height="320" fill="url(#gridFade)"/></mask>
+<linearGradient id="flow" x1="820" y1="0" x2="1190" y2="0" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#4FD1C5"/><stop offset="1" stop-color="#8AB4FF"/>
+</linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#4FD1C5"/><stop offset=".45" stop-color="#8AB4FF"/><stop offset="1" stop-color="#8AB4FF" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="frame"><rect width="1280" height="320" rx="14"/></clipPath>
+<clipPath id="type"><rect x="207" y="60" width="54" height="26">
+<animate attributeName="width" dur="1.7s" fill="freeze" calcMode="discrete" values="0;0;9;18;27;36;45;54" keyTimes="0;.35;.45;.55;.64;.73;.82;.91"/>
+</rect></clipPath>
+<linearGradient id="edgeLine" x1="72" y1="0" x2="1208" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4FD1C5" stop-opacity="0"/><stop offset=".3" stop-color="#4FD1C5" stop-opacity=".7"/><stop offset=".7" stop-color="#8AB4FF" stop-opacity=".7"/><stop offset="1" stop-color="#8AB4FF" stop-opacity="0"/></linearGradient>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="1280" height="320" fill="url(#bg)"/>
+<rect width="1280" height="320" fill="url(#grid)" mask="url(#gridMask)"/>
+<rect width="1280" height="320" fill="url(#glowL)"/>
+<rect width="1280" height="320" fill="url(#glowR)"/>
+<g class="mono drift" font-size="13" fill="#7FA6D6" opacity=".045">
+<text x="700" y="30">SELECT user_id, score FROM features</text>
+<text x="753" y="54">df = load('events.parquet')</text>
+<text x="806" y="78">vectors = embed(documents)</text>
+<text x="859" y="102">model.predict(batch)</text>
+<text x="912" y="126">POST /api/v1/predict  200</text>
+<text x="705" y="150">pipeline.run(extract, transform)</text>
+<text x="758" y="174">context = retrieve(query, k=5)</text>
+<text x="811" y="198">INSERT INTO insights VALUES ($1)</text>
+<text x="864" y="222">GET /api/v1/insights  200</text>
+<text x="917" y="246">loss: 0.0421  acc: 0.973</text>
+<text x="710" y="270">schema.validate(payload)</text>
+<text x="700" y="294">SELECT user_id, score FROM features</text>
+<text x="753" y="318">df = load('events.parquet')</text>
+<text x="806" y="342">vectors = embed(documents)</text>
+<text x="859" y="366">model.predict(batch)</text>
+<text x="912" y="390">POST /api/v1/predict  200</text>
+<text x="705" y="414">pipeline.run(extract, transform)</text>
+<text x="758" y="438">context = retrieve(query, k=5)</text>
+<text x="811" y="462">INSERT INTO insights VALUES ($1)</text>
+<text x="864" y="486">GET /api/v1/insights  200</text>
+<text x="917" y="510">loss: 0.0421  acc: 0.973</text>
+<text x="710" y="534">schema.validate(payload)</text>
+</g>
+<g class="fade" style="animation-delay:.2s">
+<line x1="820" y1="95" x2="960" y2="78" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="95" x2="960" y2="118" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="95" x2="960" y2="158" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="95" x2="960" y2="198" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="95" x2="960" y2="238" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="137" x2="960" y2="78" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="137" x2="960" y2="118" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="137" x2="960" y2="158" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="137" x2="960" y2="198" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="137" x2="960" y2="238" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="179" x2="960" y2="78" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="179" x2="960" y2="118" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="179" x2="960" y2="158" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="179" x2="960" y2="198" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="179" x2="960" y2="238" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="221" x2="960" y2="78" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="221" x2="960" y2="118" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="221" x2="960" y2="158" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="221" x2="960" y2="198" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="820" y1="221" x2="960" y2="238" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="960" y1="78" x2="1080" y2="118" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="960" y1="78" x2="1080" y2="158" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="960" y1="78" x2="1080" y2="198" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="960" y1="118" x2="1080" y2="118" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="960" y1="118" x2="1080" y2="158" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="960" y1="118" x2="1080" y2="198" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="960" y1="158" x2="1080" y2="118" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="960" y1="158" x2="1080" y2="158" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="960" y1="158" x2="1080" y2="198" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="960" y1="198" x2="1080" y2="118" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="960" y1="198" x2="1080" y2="158" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="960" y1="198" x2="1080" y2="198" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="960" y1="238" x2="1080" y2="118" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="960" y1="238" x2="1080" y2="158" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="960" y1="238" x2="1080" y2="198" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="1080" y1="118" x2="1190" y2="158" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="1080" y1="158" x2="1190" y2="158" stroke="#1E3A5F" stroke-width="1"/>
+<line x1="1080" y1="198" x2="1190" y2="158" stroke="#1E3A5F" stroke-width="1"/>
+</g>
+<g class="fade" style="animation-delay:.6s">
+<path class="p0" d="M820 95 L960 118 L1080 118 L1190 158" fill="none" stroke="url(#flow)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="p1" d="M820 179 L960 198 L1080 158 L1190 158" fill="none" stroke="url(#flow)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="p2" d="M820 137 L960 78 L1080 158 L1190 158" fill="none" stroke="url(#flow)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="p3" d="M820 221 L960 238 L1080 198 L1190 158" fill="none" stroke="url(#flow)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="p4" d="M820 137 L960 158 L1080 158 L1190 158" fill="none" stroke="url(#flow)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="p5" d="M820 179 L960 158 L1080 118 L1190 158" fill="none" stroke="url(#flow)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="fade" style="animation-delay:.4s">
+<rect x="813" y="88" width="14" height="14" rx="3" fill="#0C2533" stroke="#4FD1C5" stroke-width="1.5"/>
+<rect x="817" y="92" width="6" height="6" rx="1" fill="#4FD1C5" class="node" style="animation-delay:0.0s"/>
+<rect x="813" y="130" width="14" height="14" rx="3" fill="#0C2533" stroke="#4FD1C5" stroke-width="1.5"/>
+<rect x="817" y="134" width="6" height="6" rx="1" fill="#4FD1C5" class="node" style="animation-delay:0.5s"/>
+<rect x="813" y="172" width="14" height="14" rx="3" fill="#0C2533" stroke="#4FD1C5" stroke-width="1.5"/>
+<rect x="817" y="176" width="6" height="6" rx="1" fill="#4FD1C5" class="node" style="animation-delay:1.0s"/>
+<rect x="813" y="214" width="14" height="14" rx="3" fill="#0C2533" stroke="#4FD1C5" stroke-width="1.5"/>
+<rect x="817" y="218" width="6" height="6" rx="1" fill="#4FD1C5" class="node" style="animation-delay:1.5s"/>
+<circle cx="960" cy="78" r="6.5" fill="#8AB4FF" stroke="#8AB4FF" stroke-width="1.5" class="node" style="animation-delay:0.90s"/>
+<circle cx="960" cy="118" r="6.5" fill="#8AB4FF" stroke="#8AB4FF" stroke-width="1.5" class="node" style="animation-delay:1.27s"/>
+<circle cx="960" cy="158" r="6.5" fill="#8AB4FF" stroke="#8AB4FF" stroke-width="1.5" class="node" style="animation-delay:1.64s"/>
+<circle cx="960" cy="198" r="6.5" fill="#8AB4FF" stroke="#8AB4FF" stroke-width="1.5" class="node" style="animation-delay:2.01s"/>
+<circle cx="960" cy="238" r="6.5" fill="#8AB4FF" stroke="#8AB4FF" stroke-width="1.5" class="node" style="animation-delay:2.38s"/>
+<circle cx="1080" cy="118" r="6.5" fill="#8AB4FF" stroke="#8AB4FF" stroke-width="1.5" class="node" style="animation-delay:2.75s"/>
+<circle cx="1080" cy="158" r="6.5" fill="#8AB4FF" stroke="#8AB4FF" stroke-width="1.5" class="node" style="animation-delay:3.12s"/>
+<circle cx="1080" cy="198" r="6.5" fill="#8AB4FF" stroke="#8AB4FF" stroke-width="1.5" class="node" style="animation-delay:3.49s"/>
+<rect x="1177" y="145" width="26" height="26" rx="6" fill="none" stroke="#8AB4FF" stroke-width="1.5" class="ring"/>
+<rect x="1177" y="145" width="26" height="26" rx="6" fill="#132A4D" stroke="#8AB4FF" stroke-width="1.5"/>
+<path d="M1184 155h12M1184 159h8M1184 163h10" stroke="#EAF2FF" stroke-width="1.6" stroke-linecap="round" opacity=".85"/>
+<g class="mono" font-size="12" fill="#4F6F97" text-anchor="middle" letter-spacing="1">
+<text x="820" y="286">data/</text>
+<text x="1020" y="286">model/</text>
+<text x="1190" y="286">app/</text>
+</g>
+<g stroke="#2A4870" stroke-width="1" fill="none">
+<path d="M790 268v6h60v-6"/><path d="M945 268v6h150v-6"/><path d="M1168 268v6h44v-6"/>
+</g>
+</g>
+<g class="mono" font-size="15">
+<text x="72" y="78" fill="#4B6A92" textLength="126" lengthAdjust="spacingAndGlyphs">thomas@esgi:~$</text>
+<text x="207" y="78" fill="#CFE3FF" textLength="54" lengthAdjust="spacingAndGlyphs" clip-path="url(#type)">whoami</text>
+<rect x="263" y="64" width="9" height="18" fill="#4FD1C5" class="blink"><animate attributeName="x" dur="1.7s" fill="freeze" calcMode="discrete" values="209;209;218;227;236;245;254;263" keyTimes="0;.35;.45;.55;.64;.73;.82;.91"/></rect>
+</g>
+<text x="70" y="146" class="sans rise" style="animation-delay:1.6s" font-size="60" font-weight="700" letter-spacing="-1.2" fill="#EAF2FF">Thomas Teboul</text>
+<text x="72" y="192" class="sans rise" style="animation-delay:1.9s" font-size="22" fill="#A9BCD6">I build application systems where <tspan fill="#4FD1C5" font-weight="600">data</tspan> meets <tspan fill="#8AB4FF" font-weight="600">AI</tspan>.</text>
+<g class="rise" style="animation-delay:2.2s">
+<rect x="72" y="220" width="383" height="34" rx="8" fill="#0F2440" fill-opacity=".85" stroke="#23446C"/>
+<circle cx="90" cy="237" r="4" fill="#4FD1C5" class="dot"/>
+<text x="104" y="242" class="mono" font-size="15" fill="#D6E4F7" textLength="333" lengthAdjust="spacingAndGlyphs">Application Engineering student <tspan fill="#4FD1C5">@ESGI</tspan></text>
+</g>
+<text x="73" y="282" class="sans rise" style="animation-delay:2.45s" font-size="14" letter-spacing=".3" fill="#6A84A6">École Supérieure de Génie Informatique</text>
+<line x1="72" y1="319" x2="1208" y2="319" stroke="url(#edgeLine)" stroke-width="2"/>
+</g>
+<rect x=".5" y=".5" width="1279" height="319" rx="13.5" fill="none" stroke="#1B3354"/>
+</svg>
