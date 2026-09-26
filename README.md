@@ -39,7 +39,7 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/thomastbl/multiplayer-websocket-server">Real-time Multiplayer Server</a></h3>
+      <h3>⚡ <a href="https://github.com/thomastbl/multiplayer-websocket-server">Multiplayer Server</a></h3>
       <p>Multiplayer server with its web UI, built in vanilla JavaScript (ES Modules, CSS Grid/Flexbox, design tokens). The Node.js back end splits an <b>Express/HTTP server</b> (JWT auth with route-protection middleware, bcrypt, PostgreSQL with parameterized queries) from a <b>WebSocket server</b> that authenticates connections, tracks online users via heartbeat and broadcasts updates in real time.</p>
       <img src="https://skillicons.dev/icons?i=js,nodejs,express,postgres&theme=dark" height="28" />
     </td>
