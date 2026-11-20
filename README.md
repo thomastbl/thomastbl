@@ -6,59 +6,82 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thomas-teboul-7809201b6/)
 [![GitHub](https://img.shields.io/badge/GitHub-thomastbl-0B1A2E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thomastbl)
-[![Status](https://img.shields.io/badge/Open%20to-Apprenticeship%202026--2028-4FD1C5?style=for-the-badge&labelColor=0B1A2E)](https://www.linkedin.com/in/thomas-teboul-7809201b6/)
+[![Building with](https://img.shields.io/badge/Building%20with-Claude%20Code-4FD1C5?style=for-the-badge&logo=claude&logoColor=white&labelColor=0B1A2E)](https://claude.com/claude-code)
 
 </div>
 
-<img src="./assets/section-working-on.svg" width="100%" alt="Working On" />
+<img src="./assets/section-working-on.svg" width="100%" alt="What I'm working on" />
 
-- 🔄 Coming from 4 years in IT support & operations, **now building the systems I used to support.**
-- 🎓 **Software Engineering Bachelor @ESGI**, 2nd year apprenticeship track, heading into an **[Artificial Intelligence and Big Data specialization](https://www.esgi.fr/programmes/intelligence-artificielle-big-data.html)**.
-- 📚 **[The Odin Project](https://www.theodinproject.com/)**: A renown self-taught full-stack path since late 2025.
-- 📄 **[myPDFConfigurator](https://github.com/thomastbl/myPDFConfigurator)**: a React + Go (Gin) app with a Python AI layer to assist decision-making.
-- ⚡ **[Real-time multiplayer server](https://github.com/thomastbl/multiplayer-websocket-server)**: Express API with JWT auth plus a WebSocket server that handles user authentification, presence and live broadcasting.
+- 🤖 **Full-time agentic development with Claude Code.** I design the product, write the specs and make the calls. AI agents implement, test and iterate inside guardrails I set up.
+- 🎮 **Several projects in active development:** games in C# / .NET (Unity & Godot), a browser extension, and the tooling around them (MCP integrations, asset pipelines, custom skills). They stay private until they're ready to ship.
+- 🧠 **Exploring how far one developer can scale:** multi-agent orchestration, context engineering, spec-driven development.
+- 🔄 **4 years in IT support & operations**, then software engineering at **ESGI** and **[The Odin Project](https://www.theodinproject.com/)**. I learned to write code by hand first. Now I orchestrate the agents that write it.
+
+<img src="./assets/section-how-i-work.svg" width="100%" alt="How I work" />
+
+<div align="center">
+
+![Agentic workflow](./assets/agentic-workflow.svg)
+
+</div>
+
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <h4>📐 Spec before code</h4>
+      <p>A vision document, a roadmap and Architecture Decision Records are written and validated before any agent touches the codebase.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🧭 One orchestrator, many threads</h4>
+      <p>A lead session holds the project state, splits each milestone into focused tasks and dispatches them to sub-agents, each in its own git worktree.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>⚖️ The right model for the job</h4>
+      <p>Larger models for architecture and review, faster ones for well-specified execution. Effort and cost follow the difficulty of the task.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>🛡️ Guardrails, not vibes</h4>
+      <p><code>CLAUDE.md</code> and conventions files, hooks that run checks on every change, unit and architecture tests (ArchUnitNET) that keep layers honest.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🔌 Agents with real tools</h4>
+      <p>MCP servers plug agents straight into Godot, Blender, the browser and design tools, so they can run, inspect and fix what they build.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>👤 Human in the loop</h4>
+      <p>I own the vision, the trade-offs and the final review. Agents write the code; I'm accountable for every line that ships.</p>
+    </td>
+  </tr>
+</table>
 
 <img src="./assets/section-tech-stack.svg" width="100%" alt="Tech Stack" />
 
 <div align="center">
 
-**Daily use**
+**Agentic toolchain**
 
-<img src="https://skillicons.dev/icons?i=js,html,css,nodejs,express,postgres,git,docker,linux&theme=dark" />
+![Claude Code](https://img.shields.io/badge/Claude%20Code-0F2440?style=for-the-badge&logo=claude&logoColor=D97757)
+![MCP](https://img.shields.io/badge/MCP%20servers-0F2440?style=for-the-badge&logo=modelcontextprotocol&logoColor=4FD1C5)
+![Sub-agents](https://img.shields.io/badge/Sub--agents%20%26%20Skills-0F2440?style=for-the-badge&logo=claude&logoColor=8AB4FF)
+![Git worktrees](https://img.shields.io/badge/Git%20worktrees-0F2440?style=for-the-badge&logo=git&logoColor=F05032)
 
-**Learning now**
+**Games & 3D**
 
-<img src="https://skillicons.dev/icons?i=python,react,go,redis&theme=dark" />
+<img src="https://skillicons.dev/icons?i=cs,dotnet,unity,godot,blender&theme=dark" />
 
-**Concepts:** `HTTP & REST APIs` `Authentification & Security` `Tests` `React (Hooks & State)` `Docker & CI/CD` `SQL` `Caching` `Structured Outputs` `RAG`
+**Web & back-end**
+
+<img src="https://skillicons.dev/icons?i=js,html,css,nodejs,express,react,postgres,py,go&theme=dark" />
+
+**Ops & tooling**
+
+<img src="https://skillicons.dev/icons?i=git,github,docker,linux,powershell,bash,vscode&theme=dark" />
+
+**Concepts:** `Multi-agent orchestration` `Spec-driven development` `Context engineering` `ADRs` `Hooks & guardrails` `Architecture tests` `Clean architecture` `REST & WebSocket` `JWT auth` `SQL`
 
 </div>
-
-<img src="./assets/section-featured-projects.svg" width="100%" alt="Featured Projects" />
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/thomastbl/multiplayer-websocket-server">API REST + WebSocket server</a></h3>
-      <p>Multiplayer server with its web UI, built in vanilla JavaScript (ES Modules, CSS Grid/Flexbox, design tokens). The Node.js back end splits an <b>Express/HTTP server</b> (JWT auth with route-protection middleware, bcrypt, PostgreSQL with parameterized queries) from a <b>WebSocket server</b> that authenticates connections, tracks online users via heartbeat and broadcasts updates in real time.</p>
-      <img src="https://skillicons.dev/icons?i=js,nodejs,express,postgres&theme=dark" height="28" />
-    </td>
-    <td width="50%" valign="top">
-      <h3>📄 <a href="https://github.com/thomastbl/myPDFConfigurator">myPDFConfigurator</a> <sub>🚧 in progress</sub></h3>
-      <p>PDF configuration app where an AI layer supports the decision-making process. React front end, REST API in Go with Gin, a Python service for the AI part, PostgreSQL for storage, and a repo structured along best practices from day one.</p>
-      <img src="https://skillicons.dev/icons?i=react,go,python,postgres,redis&theme=dark" height="28" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🅿️ <a href="https://github.com/JOYCE185/FIND-YOUR-SPOT-ESGI">Find Your Spot</a></h3>
-      <p>ESGI team project: a web app with an interactive map to locate parking spots, with markers and detail popups. Users can interact with each other by updating parking status about free spots.</p>
-      <img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" height="28" />
-    </td>
-    <td width="50%" valign="top">
-    </td>
-  </tr>
-</table>
 
 ![divider](./assets/thomas-teboul-divider.svg)
 
@@ -70,5 +93,5 @@
 </div>
 
 <div align="center">
-<i>📫 Looking for a 2-year apprenticeship in back-end / full-stack development (Aix-Marseille area or Paris area). Let's talk!</i>
+<i>📫 Building something with AI agents, or curious about the workflow? <a href="https://www.linkedin.com/in/thomas-teboul-7809201b6/">Let's talk!</a></i>
 </div>
