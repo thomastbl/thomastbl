@@ -13,9 +13,10 @@
 <img src="./assets/section-working-on.svg" width="100%" alt="What I'm working on" />
 
 - 🤖 **Full-time agentic development with Claude Code.** I design the product, write the specs and make the calls. AI agents implement, test and iterate inside guardrails I set up.
+- 🧭 **A technical and global view of IT.** IT support technician, IT project manager, entrepreneur on SaaS products: I've seen software from every side. The users who live with it, the teams who scope and deliver it, the business that has to make it worth it. I know how to frame a project, not just how to code it.
+- 🛠️ **Self-taught developer.** A year of web development through **[The Odin Project](https://www.theodinproject.com/)**, writing every line by hand. Today I bring it all together: I frame the project, hold the vision and the trade-offs, and orchestrate the AI agents that build it.
 - 🎮 **Several projects in active development:** games in C# / .NET (Unity & Godot), a browser extension, and the tooling around them (MCP integrations, asset pipelines, custom skills). They stay private until they're ready to ship.
 - 🧠 **Exploring how far one developer can scale:** multi-agent orchestration, context engineering, spec-driven development.
-- 🔄 **4 years in IT support & operations**, then software engineering at **ESGI** and **[The Odin Project](https://www.theodinproject.com/)**. I learned to write code by hand first. Now I orchestrate the agents that write it.
 
 <img src="./assets/section-how-i-work.svg" width="100%" alt="How I work" />
 

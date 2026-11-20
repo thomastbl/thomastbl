@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="t d">
 <title id="t">Thomas Teboul</title>
-<desc id="d">Designing software and shipping it with AI agents. Agentic development with Claude Code. From IT support and operations to building software with AI agents.</desc>
+<desc id="d">Designing software and shipping it with AI agents. Agentic development with Claude Code. IT support, project management and SaaS ventures, now building software with AI agents.</desc>
 <style>
 .mono{font-family:'JetBrains Mono','Fira Code','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace}
 .sans{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
@@ -162,7 +162,7 @@
 <circle cx="90" cy="237" r="4" fill="#4FD1C5" class="dot"/>
 <text x="104" y="242" class="mono" font-size="15" fill="#D6E4F7" textLength="289" lengthAdjust="spacingAndGlyphs">Agentic development · <tspan fill="#4FD1C5">Claude Code</tspan></text>
 </g>
-<text x="73" y="282" class="sans rise" style="animation-delay:2.45s" font-size="14" letter-spacing=".3" fill="#6A84A6">From IT support &amp; ops to building software with AI agents</text>
+<text x="73" y="282" class="sans rise" style="animation-delay:2.45s" font-size="14" letter-spacing=".3" fill="#6A84A6">IT support · project management · SaaS ventures · now building with AI agents</text>
 <line x1="72" y1="319" x2="1208" y2="319" stroke="url(#edgeLine)" stroke-width="2"/>
 </g>
 <rect x=".5" y=".5" width="1279" height="319" rx="13.5" fill="none" stroke="#1B3354"/>
