@@ -29,29 +29,29 @@
   <tr>
     <td width="33%" valign="top">
       <h4>📐 Spec before code</h4>
-      <p>A vision document, a roadmap and Architecture Decision Records are written and validated before any agent touches the codebase.</p>
+      <p>Vision, roadmap, Architecture Decision Records and conventions are written and validated once, before any agent touches the codebase.</p>
     </td>
     <td width="33%" valign="top">
-      <h4>🧭 One orchestrator, many threads</h4>
-      <p>A lead session holds the project state, splits each milestone into focused tasks and dispatches them to sub-agents, each in its own git worktree.</p>
+      <h4>🗺️ Plan, then build</h4>
+      <p>A lead session splits each milestone into tasks. For every task, an agent explores the code and writes a plan I approve before a single line changes.</p>
     </td>
     <td width="33%" valign="top">
-      <h4>⚖️ The right model for the job</h4>
-      <p>Larger models for architecture and review, faster ones for well-specified execution. Effort and cost follow the difficulty of the task.</p>
+      <h4>🧪 Tests first</h4>
+      <p>Agents write failing tests that describe the expected behaviour, then code until they pass, without touching the tests. A target they can't fake.</p>
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
-      <h4>🛡️ Guardrails, not vibes</h4>
-      <p><code>CLAUDE.md</code> and conventions files, hooks that run checks on every change, unit and architecture tests (ArchUnitNET) that keep layers honest.</p>
+      <h4>👀 Agents check their own work</h4>
+      <p>Through MCP they run the game or app, take screenshots, read the logs and fix what's wrong before handing off. Hooks run checks on every edit.</p>
     </td>
     <td width="33%" valign="top">
-      <h4>🔌 Agents with real tools</h4>
-      <p>MCP servers plug agents straight into Godot, Blender, the browser and design tools, so they can run, inspect and fix what they build.</p>
+      <h4>🔍 Two layers of review</h4>
+      <p>A reviewer agent with a fresh context reads the work first, then I do. I own the trade-offs and every line that ships.</p>
     </td>
     <td width="33%" valign="top">
-      <h4>👤 Human in the loop</h4>
-      <p>I own the vision, the trade-offs and the final review. Agents write the code; I'm accountable for every line that ships.</p>
+      <h4>📈 Every cycle compounds</h4>
+      <p>Mistakes become rules: a line in <code>CLAUDE.md</code>, a new test, a stricter check or an ADR. The next task starts smarter than the last one.</p>
     </td>
   </tr>
 </table>
@@ -79,7 +79,7 @@
 
 <img src="https://skillicons.dev/icons?i=git,github,docker,linux,powershell,bash,vscode&theme=dark" />
 
-**Concepts:** `Multi-agent orchestration` `Spec-driven development` `Context engineering` `ADRs` `Hooks & guardrails` `Architecture tests` `Clean architecture` `REST & WebSocket` `JWT auth` `SQL`
+**Concepts:** `Multi-agent orchestration` `Spec-driven development` `Test-driven development` `Context engineering` `ADRs` `Hooks & guardrails` `Architecture tests` `Clean architecture` `REST & WebSocket` `JWT auth` `SQL`
 
 </div>
 
